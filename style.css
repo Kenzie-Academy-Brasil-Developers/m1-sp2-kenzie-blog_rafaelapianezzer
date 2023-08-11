@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+header {
+    text-align: center;
+    background-color: rgba(6, 6, 255, 0.152);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body, header, button {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+h2 {
+    font-weight: bold;
+    padding: 4px;
+}
+
+p, a {
+    padding: 8px;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.119);
+}
+
+.classArticle {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    text-align: justify;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#citacao {
+    font-style: italic;
+}
+
+.classForm {
+    text-align: center;
+    background-color: rgba(6, 6, 255, 0.152);
+    border: solid 4px rgba(6, 6, 255, 0.367);
+    padding: 8px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.classForm button {
+    background-color: rgba(0, 0, 255, 0.677);
+    color:aliceblue;
+    border-radius: 4px;
+    padding: 2px;
+    text-transform: uppercase;
+}

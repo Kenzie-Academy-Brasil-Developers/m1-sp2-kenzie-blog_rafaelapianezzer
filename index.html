@@ -5,48 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Kenzie</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
+<header>
+    <img src="imagens/logo.png">
+    <h1>Blog da Kenzie</h1>
+</header>
+
 <body>
-    <header>
-        <h1>Blog da Kenzie</h1>
-        <img src="imagens/logo.png">
-    </header>
-    <article>
-        <h2>CURSO DE PROGRAMAÇÃO: KENZIE É A MELHOR OPÇÃO DO BRASIL</h2>
-        <p>Se você chegou aqui neste conteúdo, você deve estar procurando um curso de programação do zero para entrar
-            com sucesso, neste mercado tão promissor.</p>
-        <p><em>Escrito por: Brunno Kriger</em></p>
-        <a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" target="_blank">Acessar post</a>
-    </article>
-    <article>
-        <h2>LINGUAGEM DE PROGRAMAÇÃO: O QUE É E QUAL LINGUAGEM APRENDER</h2>
-        <p>As linguagens de programação foram criadas para solucionar qualquer tipo de problema na área tecnológica
-            computacional.</p>
-        <p><em>Escrito por: Ugo Roveda</em></p>
-        <a href="https://kenzie.com.br/blog/linguagem-de-programacao/" target="_blank">Acessar post</a>
-    </article>
-    <article>
-        <h2>WEB SEMÂNTICA: SAIBA TUDO SOBRE O MOVIMENTO E SUA IMPORTÂNCIA</h2>
-        <p>Você já ouviu falar em web semântica? Sabemos que a internet é uma das invenções mais importantes do século
-            XX e mudou profundamente a forma como as pessoas interagem, se comunicam e se relacionam.</p>
-        <p><em>Escrito por: Brunno Kriger</em></p>
-        <a href="https://kenzie.com.br/blog/web-semantica/" target="_blank">Acessar post</a>
-    </article>
-    <article>
-        <h2>MÉTODOS DE ARRAY JAVASCRIPT: SAIBA QUAIS VOCÊ PRECISA CONHECER</h2>
-        <p>Na programação utilizamos arrays para armazenar dados e os métodos de array para manipular esses dados e
-            tratá-los conforme a regra de negócio que a aplicação requer.</p>
-        <p><em>Escrito por: Brunno Kriger</em></p>
-        <a href="https://kenzie.com.br/blog/metodos-de-array-javascript/" target="_blank">Acessar post</a>
-    </article>
-    <div>
-        <h2>Deseja receber nossas notícias em primeira mão?</h2>
-        <p>Cadastre seu e-mail para receber todas as notícias sobre tecnologia</p>
-        <label>E-mail</label>
-        <input type="email" placeholder="Digite seu email aqui">
-        <button type="submit">Receber newsletter</button>
+    <div class="container">
+        <main>
+            <article class="classArticle">
+                <h2>CURSO DE PROGRAMAÇÃO: KENZIE É A MELHOR OPÇÃO DO BRASIL</h2>
+                <p>Se você chegou aqui neste conteúdo, você deve estar procurando um curso de programação do zero para entrar
+                    com sucesso, neste mercado tão promissor.</p>
+                <p id="citacao"><em>Escrito por: Brunno Kriger</em></p>
+                <a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" target="_blank">Acessar post</a>
+            </article>
+            <article class="classArticle">
+                <h2>LINGUAGEM DE PROGRAMAÇÃO: O QUE É E QUAL LINGUAGEM APRENDER</h2>
+                <p>As linguagens de programação foram criadas para solucionar qualquer tipo de problema na área tecnológica
+                    computacional.</p>
+                <p id="citacao"><em>Escrito por: Ugo Roveda</em></p>
+                <a href="https://kenzie.com.br/blog/linguagem-de-programacao/" target="_blank">Acessar post</a>
+            </article>
+            <article class="classArticle">
+                <h2>WEB SEMÂNTICA: SAIBA TUDO SOBRE O MOVIMENTO E SUA IMPORTÂNCIA</h2>
+                <p>Você já ouviu falar em web semântica? Sabemos que a internet é uma das invenções mais importantes do século
+                    XX e mudou profundamente a forma como as pessoas interagem, se comunicam e se relacionam.</p>
+                <p id="citacao"><em>Escrito por: Brunno Kriger</em></p>
+                <a href="https://kenzie.com.br/blog/web-semantica/" target="_blank">Acessar post</a>
+            </article>
+            <article class="classArticle">
+                <h2>MÉTODOS DE ARRAY JAVASCRIPT: SAIBA QUAIS VOCÊ PRECISA CONHECER</h2>
+                <p>Na programação utilizamos arrays para armazenar dados e os métodos de array para manipular esses dados e
+                    tratá-los conforme a regra de negócio que a aplicação requer.</p>
+                <p id="citacao"><em>Escrito por: Brunno Kriger</em></p>
+                <a href="https://kenzie.com.br/blog/metodos-de-array-javascript/" target="_blank">Acessar post</a>
+            </article>
+        </main>
+        <div id="form" class="classForm">
+            <form>
+                <h2>Deseja receber nossas notícias em primeira mão?</h2>
+                <p>Cadastre seu e-mail para receber todas as notícias sobre tecnologia</p>
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu email aqui">
+                <button type="submit">Receber newsletter</button>
+            </form>
+        </div>
     </div>
 </body>
-
 </html>
