@@ -53,6 +53,15 @@ body {
     border-radius: 8px;
 }
 
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .classForm button {
     background-color: rgba(0, 0, 255, 0.677);
     color:aliceblue;
